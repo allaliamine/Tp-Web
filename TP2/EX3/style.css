@@ -1,0 +1,132 @@
+body{
+    margin: 0% 0%;
+}
+
+header{
+    background-color: #003A6A;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.upper{
+    display:flex;
+    justify-content: space-between;
+}
+
+.univ{
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7em;
+    letter-spacing: 10px;
+}
+
+.abd_malk{
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size : 1.4em;
+    letter-spacing: 1.1px;
+}
+
+
+.ecole{
+    color: #8AB5D6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.6px;
+}
+
+.under_ecole{
+    color: #8AB5D6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 2.3px;
+}
+
+.left_side{
+    line-height: 4px;
+    margin-top: 0px;
+}
+
+.logo_ensah{
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+}
+
+.upper ul{
+    margin-top: 35px;
+    text-align: right;
+}
+
+.upper li{
+    margin-top: 20px;
+   list-style-type: none;
+   display: inline;
+   color: #4185B9;
+}
+
+input{
+    background-color: #004074;
+    box-shadow: none;
+    border: 1px;
+    border-color: #00569D;
+    border-style: solid;
+    width: 250px;
+    height: 35px;
+    margin-top: 14px;
+}
+
+.navbar{
+    border: 1px solid #00569d;
+    margin-top: 40px;
+    background-color: #004884;
+    height: 50px;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline;
+}
+
+.axes, .axes1{
+    border: 1px solid;
+    border-color: #00569d;
+    padding: 16px 20px;
+    float: left;
+    border-bottom: hidden;
+}
+
+.axes:hover{
+    color: #FFFFFF;
+}
+
+.axes1{
+    color: #FECD0B;
+}
+
+.socials{
+    text-align: right;
+    margin: 0px;
+    padding: 6px;
+}
+
+a{
+    color: #8AB5D6;
+    text-decoration: none;
+}
+
+.t_logo{ 
+    width: 35px;
+    height: 35px;
+    filter: brightness(100);
+}
+.f_logo{
+    width: 38px;
+    height: 38px;
+}
+
+.g_logo{
+    width: 33px;
+    height: 33px;
+    filter: brightness(100);
+}
