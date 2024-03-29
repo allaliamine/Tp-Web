@@ -12,10 +12,10 @@ body{
 /*style pour le cadre*/
 .cadre{
     background-color: white;
-    width: 930px;
-    height: 483px;
+    width: 910px;
+    height: 487px;
     border-radius: 13px;
-    margin-top: 46px;
+    margin-top: 2.4rem;
 }
 
 /*style pour insider pour diveser div en deux avec flex*/
@@ -25,8 +25,8 @@ body{
 
 /*style pour image*/
 img{
-    width: 465px;
-    height: 483px;
+    width: 453px;
+    height: 487px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -38,21 +38,22 @@ img{
 
 .right_side{
     padding-left: 12px;
-    padding-right: 12px;
-    height: 483px;
+    height: 487px;
 }
 
 /*pour center insider de login*/
 .inside_right{
-    padding-left: 48px ;
-    padding-bottom: 48px;
-    padding-right: 48px;
+    position:static;
+    padding: 48px ;
     padding-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /*style de titre e-service*/
 .title_div{
     text-align: center;
+    height: 29px;
+    margin-bottom: 24px;
 }
 
 .title_style{
@@ -64,23 +65,23 @@ img{
 
 
 /*espace entre les champs de formulaire de login*/
-.utilisateur , .mdp, .button, .connecte{
+.utilisateur , .mdp, .button{
     margin-bottom: 20px;
 }
 
-.utilisateur, .mdp{
-    width: 334px;
-}
-
 /*style des input username et mdp*/
-.login{
+.login{ 
     width: 100%;
-    height: 40px;
+    height: 50px;
     border-radius: 160px;
     border: 1px solid #d1d3e2;
-    padding-left: 10px;
-    font-size: 10px;
+    padding: 16px 24px ;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding-left: 20px;
 }
+
+
 
 /* style pour button se rappeler de moi*/
 .button input{
@@ -88,31 +89,33 @@ img{
     height: 16px;
     border-radius: 5px;
     border: 1px solid #d1d3e2;
-    position: absolute;
+    vertical-align: middle;
 }
 
 /* style pour label se rappeler de moi*/
 label{
-    padding-left: 30px;
+    font-size: small;
+    vertical-align: middle;
     color:#858796 ;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /*style pour le button se connecte*/
 .connecte{
     width: 100%;
-    height: 40px;
     border-radius: 160px;
     border:  #d1d3e2;
     background-color: #4E73DF;
     color: white;
     text-align: center;
+    padding: 12px 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
 }
 
 hr{
    border: 1px solid #E8E8E8;
+   margin-top: 16px;
+   margin-bottom: 16px;
 }
 
 /*style pour mdp oubliee et question*/
@@ -123,7 +126,7 @@ hr{
 a{
     text-decoration: none;
     color: #4E73DF;
-    font-size: 12.8px;
+    font-size: 13px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -132,5 +135,4 @@ a{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     color: #858796;
-
 }
