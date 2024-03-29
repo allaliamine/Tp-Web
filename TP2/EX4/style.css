@@ -51,14 +51,9 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
+   
     .flex_container{
         display: flexbox;
         flex-direction: column;
     }
-
-    div{
-        background-color: black;
-    }
-
-
 }
