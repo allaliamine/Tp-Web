@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    border: 2px solid;
+    margin-top: 30%;
+}
+
+.insider{
+    padding: 20px;
+}
+
+.titre h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.titre h4{
+    text-decoration: none;
+    line-height: 50%;
+    text-align: center;
+}
+
+.coeff{
+    text-align: center;
+    line-height: 160%;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.submit input{
+    background-color:#04AA6D;
+    border: 1px solid black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit input:hover{
+    background-color: #04AA6D;
+}
