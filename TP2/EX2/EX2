@@ -1,6 +1,6 @@
 Écrivez un sélecteur pour chacun des énoncés suivants.
 
-Tous les éléments "a" emboités dans un élément "p".
+1-Tous les éléments "a" emboités dans un élément "p".
 reponse :
 
 p   a{
@@ -9,7 +9,7 @@ p   a{
 
 }
 
-Tous les éléments "img" appartenant à la classe encadre et placés dans un élément "div" appartenant à la classe enonce.
+2-Tous les éléments "img" appartenant à la classe encadre et placés dans un élément "div" appartenant à la classe enonce.
 reponse :
 
 div.enonce   img.encadre{
@@ -18,7 +18,7 @@ div.enonce   img.encadre{
 
 }
 
-Tous les éléments "img" dont l'attribut width vaut 300.
+3-Tous les éléments "img" dont l'attribut width vaut 300.
 reponse :
 
 img [width="300"]{
@@ -27,7 +27,7 @@ img [width="300"]{
 
 }
 
-Tous les éléments "time" dont l'attribut datetime a été défini et qui sont situés dans un élément "article" appartenant à la classe remarque.
+4-Tous les éléments "time" dont l'attribut datetime a été défini et qui sont situés dans un élément "article" appartenant à la classe remarque.
 reponse :
 
 article.remarque time[datetime]{
@@ -36,7 +36,7 @@ article.remarque time[datetime]{
 
 }
 
-Tous les éléments "p" qui sont fils d'un élément "div" de la classe exemple.
+5-Tous les éléments "p" qui sont fils d'un élément "div" de la classe exemple.
 reponse :
 
 div.exemple > p{
@@ -45,7 +45,7 @@ div.exemple > p{
 
 }
 
-Tous les éléments "img" de classe encadre placés dans un élément "p" dont l'id est important.
+6-Tous les éléments "img" de classe encadre placés dans un élément "p" dont l'id est important.
 reponse :
 
 p#important img.encadre{
@@ -54,7 +54,7 @@ p#important img.encadre{
 
 }
 
-Le premier élément "img" dont le père est un élément "div"
+7-Le premier élément "img" dont le père est un élément "div"
 reponse :
 
 div > img:first-child {
@@ -63,7 +63,7 @@ div > img:first-child {
 
 }
 
-Tous les éléments "img" fils de rang impair d'un élément quelconque du document html
+8-Tous les éléments "img" fils de rang impair d'un élément quelconque du document html
 reponse :
 
 * > img:nth-of-type(odd) {
@@ -72,7 +72,7 @@ reponse :
 
 }
 
-Tous les éléments "a" dont la cible est un fichier d'extension .jpg situé dans le premier élément "p" qui est fils d'un élément "article" de la classe exercice.
+9-Tous les éléments "a" dont la cible est un fichier d'extension .jpg situé dans le premier élément "p" qui est fils d'un élément "article" de la classe exercice.
 reponse :
 
 article.exercice > p:first-child a[href$=".jpg"] {
@@ -81,7 +81,7 @@ article.exercice > p:first-child a[href$=".jpg"] {
 
 }
 
-Les éléments "div" de la classe remarque qui sont les premiers frères (suivant) d'un élément "div" de classe reponse.
+10-Les éléments "div" de la classe remarque qui sont les premiers frères (suivant) d'un élément "div" de classe reponse.
 reponse :
 
 div.reponse + div.remarque {
@@ -90,7 +90,7 @@ div.reponse + div.remarque {
 
 }
 
-Le second élément de type "p" fils d'un élément "article" placé dans un élément "section"
+11-Le second élément de type "p" fils d'un élément "article" placé dans un élément "section"
 reponse :
 
 section article > p:nth-of-type(2) {
