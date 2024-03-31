@@ -57,6 +57,8 @@ footer{
     background-color: lightpink;
 }
 
+
+/* responsive design */
 @media screen and (max-width: 600px) {
    
     /*style pour container*/
