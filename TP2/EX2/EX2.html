@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex2</title>
+</head>
+<body>
+    <h3 style="text-decoration: underline;">Écrivez un sélecteur pour chacun des énoncés suivants.</h3>
+    <ol>
+        <li>Tous les éléments "a" emboités dans un élément "p".</li>
+        <p>reponse : </p>
+        <p> p &nbsp a{</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+        <li>Tous les éléments "img" appartenant à la classe encadre et placés dans un élément "div" appartenant à la classe enonce.</li>
+        <p>reponse : </p>
+        <p> div.enonce &nbsp img.encadre{</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+        <li>Tous les éléments "img" dont l'attribut width vaut 300.</li>
+        <p>reponse : </p>
+        <p> img [width="300"]{</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+        
+
+        <li>Tous les éléments "time" dont l'attribut datetime a été défini et qui sont situés dans un élément
+            "article" appartenant à la classe remarque.</li>
+        <p>reponse : </p>
+        <p>article.remarque time[datetime]{</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+
+
+        <li>Tous les éléments "p" qui sont fils d'un élément "div" de la classe exemple.</li>
+        <p>reponse : </p>
+        <p>div.exemple > p{</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+        <li>Tous les éléments "img" de classe encadre placés dans un élément "p" dont l'id est important.</li>
+        <p>reponse : </p>
+        <p>p#important img.encadre{</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+
+        <li>Le premier élément "img" dont le père est un élément "div"</li>
+        <p>reponse : </p>
+        <p>div > img:first-child {</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+        <li>Tous les éléments "img" fils de rang impair d'un élément quelconque du document html</li>
+        <p>reponse : </p>
+        <p>* > img:nth-of-type(odd) {</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+        <li>Tous les éléments "a" dont la cible est un fichier d'extension .jpg situé dans le premier élément "p" qui est fils d'un élément "article" de la classe exercice.</li>
+        <p>reponse : </p>
+        <p>article.exercice > p:first-child a[href$=".jpg"] {</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+
+        <li>Les éléments "div" de la classe remarque qui sont les premiers frères (suivant) d'un élément "div" de classe reponse.</li>
+        <p>reponse : </p>
+        <p>div.reponse + div.remarque {</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+        <li>Le second élément de type "p" fils d'un élément "article" placé dans un élément "section"</li>
+        <p>reponse : </p>
+        <p>section article > p:nth-of-type(2) {</p>
+        <p>/* style */</p>
+        <p>}</p>
+        <hr>
+
+        
+
+        
+        
+    </ol>
+    
+
+
+
+
+</body>
+</html>
