@@ -136,3 +136,22 @@ a{
     text-align: center;
     color: #858796;
 }
+
+
+@media screen and (max-width : 900px) {
+    .cadre{
+        width: 455px;
+    }
+    
+    img{
+        display: none;
+    }
+    
+    .left_side{
+        display: none;
+    }
+
+    .right_side{
+        width: 100%;
+    }
+}
