@@ -118,8 +118,19 @@ input{
 
 .socials{
     text-align: right;
-    margin: 0px;
-    padding: 6px;
+    padding-right: 10px;
+}
+
+ul.socials li{
+    padding-inline: 10px;
+}
+
+ul.socials a{
+    color: white;
+}
+
+ul.socials a:hover{
+    color: #FECD0B;
 }
 
 a{
@@ -127,18 +138,6 @@ a{
     text-decoration: none;
 }
 
-.t_logo{ 
-    width: 35px;
-    height: 35px;
-    filter: brightness(100);
-}
-.f_logo{
-    width: 38px;
-    height: 38px;
-}
-
-.g_logo{
-    width: 33px;
-    height: 33px;
-    filter: brightness(100);
+.fa{
+    vertical-align: bottom;
 }
