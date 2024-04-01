@@ -15,7 +15,7 @@ if ($a == 0) {
     } elseif ($c == 0) {
         $tableau[] = "l'equation a une infinité de solutions";
     } else {
-        $tableau[] = "l'équation n'a pas de solution dans R";
+        $tableau[] = "l'équation n'a pas de solution dans C";
     }
 }
 
@@ -23,7 +23,14 @@ else{
     $delta = pow($b,2) - (4*$a*$c);
 
     if($delta < 0){
-        $tableau[] = "l'equation n'a pas de solution dans R";
+        $partieReel = -$b/(2*$a);
+        $partieImag = sqrt(-$delta)/(2*$a);
+
+        $x1 = $partieReel." + ".$partieImag."* i ";
+        $x2 = $partieReel." - ".$partieImag."* i ";
+
+        $tableau[] = $x1;
+        $tableau[] = $x2;
     }
 
     elseif($delta == 0){
